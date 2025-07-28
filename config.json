@@ -11,7 +11,7 @@
 	"daemonType": "default",
 	"cnAlgorithm": "randomx",
 	"cnVariant": 0,
-	"cnBlobType": 0,
+	"cnBlobType": 15,
 	"includeHeight": true,
 	"isRandomX": true,
 
@@ -59,7 +59,7 @@
             },
                         {
                                 "port": 7777,
-                                "difficulty": 2000000,
+                                "difficulty": 1500000,
                                 "desc": "Cloud-mining / NiceHash",
 				"ssl": true
             }
