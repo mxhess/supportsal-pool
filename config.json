@@ -4,7 +4,7 @@
 	"coin": "salvium",
 	"symbol": "SAL",
 	"coinUnits": 1000000000000,
-	"coinDecimalPlaces": 4,
+	"coinDecimalPlaces": 6,
 	"coinDifficultyTarget": 120,
 	"blockchainExplorer": "https://explorer.salvium.io/block/{id}",
 	"transactionExplorer": "https://explorer.salvium.io/tx/{id}",
@@ -41,25 +41,25 @@
                 "ports": [
                         {
                                 "port": 3333,
-                                "difficulty": 50000,
+                                "difficulty": 100000,
                                 "desc": "Low end hardware",
 				"ssl": true
             },
                         {
                                 "port": 4444,
-                                "difficulty": 250000,
+                                "difficulty": 800000,
                                 "desc": "Mid range hardware",
 				"ssl": true
             },
                         {
                                 "port": 5555,
-                                "difficulty": 800000,
+                                "difficulty": 2000000,
                                 "desc": "High end hardware",
 				"ssl": true
             },
                         {
                                 "port": 7777,
-                                "difficulty": 1500000,
+                                "difficulty": 4000000,
                                 "desc": "Cloud-mining / NiceHash",
 				"ssl": true
             }
@@ -67,10 +67,10 @@
 		"varDiff": {
 			"minDiff": 10000,
 			"maxDiff": 100000000,
-			"targetTime": 120,
-			"retargetTime": 90,
-			"variancePercent": 10,
-			"maxJump": 10000
+			"targetTime": 30,
+			"retargetTime": 240,
+			"variancePercent": 20,
+			"maxJump": 500000
 		},
 		"paymentId": {
 			"addressSeparator": ".",
@@ -112,7 +112,7 @@
 		"transferFee": 14000000000,
 		"dynamicTransferFee": true,
 		"minerPayFee": true,
-		"minPayment": 1000000000000,
+		"minPayment": 100000000000,
 		"maxPayment": null,
 		"maxTransactionAmount": 0,
 		"denomination": 100000000000
