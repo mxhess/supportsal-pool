@@ -31,7 +31,7 @@
 		"enabled": true,
 		"mergedMining": false,
 		"clusterForks": "auto",
-		"poolAddress": "SaLvsAyFAZDXy2en1xiuvS4NpV4WjHCyz4AnMxa5wuW34nRgHLYgu1CZdLCdtEPPcJEm7M4tDgg6Ce8N4EoqYYUJhceZCAH3ap5",
+		"poolAddress": "SaLvdT6Nw6h2meReKrMF4RN9TbfFjz54N4WmGShAH8S6aLJ4juCLGJ11mBuSra8jf5djt3youXMjPfVmbpoe7ASXEuBkoQYuCSV",
 		"intAddressPrefix": 89488152,
 		"blockRefreshInterval": 1000,
 		"minerTimeout": 900,
